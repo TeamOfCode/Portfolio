@@ -39,3 +39,47 @@ C:\Users\user\Documents\repoGITHUB\Nieruchomosci - Kopia (3)\ProjektTestowy\bin\
 C:\Users\user\Documents\repoGITHUB\Nieruchomosci - Kopia (3)\ProjektTestowy\obj\Debug\ProjektTestowy.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\repoGITHUB\Nieruchomosci - Kopia (3)\ProjektTestowy\obj\Debug\ProjektTestowy.dll
 C:\Users\user\Documents\repoGITHUB\Nieruchomosci - Kopia (3)\ProjektTestowy\obj\Debug\ProjektTestowy.pdb
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\obj\Debug\ProjektTestowy.csprojResolveAssemblyReference.cache
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\ProjektTestowy.dll.config
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\ProjektTestowy.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\ProjektTestowy.pdb
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\EntityFramework.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Nieruchomosci.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\PagedList.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Helpers.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Mvc.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Razor.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.Razor.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Optimization.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.AspNet.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.Core.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OAuth.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OpenId.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Mono.Math.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Nieruchomosci.pdb
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\EntityFramework.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\PagedList.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Helpers.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Mvc.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.Razor.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\System.Web.WebPages.Razor.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.AspNet.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.Core.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OAuth.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\DotNetOpenAuth.OpenId.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\bin\Debug\Mono.Math.xml
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\obj\Debug\ProjektTestowy.dll
+E:\TeamOfCodeProjects\Repo\GieldaVer2\ProjektTestowy\obj\Debug\ProjektTestowy.pdb
