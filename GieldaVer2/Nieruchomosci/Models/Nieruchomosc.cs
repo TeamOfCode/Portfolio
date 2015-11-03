@@ -19,6 +19,7 @@ namespace Nieruchomosci.Models
         {
             this.NieruchomoscPhoto = new HashSet<NieruchomoscPhoto>();
         }
+
         [Display(Name = "ID")]
         public int NieruchomoscID { get; set; }
         [Required(ErrorMessage = "Pole jest wymagane")]

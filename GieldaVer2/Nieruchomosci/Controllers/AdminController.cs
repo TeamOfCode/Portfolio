@@ -49,14 +49,6 @@ namespace Nieruchomosci.Controllers
         }
 
         //
-
-
-        //
-
-        //
-
-
-        //
         // GET: /Admin1/Delete/5
         [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id = 0)
@@ -234,9 +226,11 @@ namespace Nieruchomosci.Controllers
         public ActionResult OgloszeniaLista(ViewModelFiltrowanieOgloszenie ogloszenie, int page = 1)
         {
             IQueryable<Nieruchomosc> listaNieruchomosci = ogloszenie == null
-                ? repo.GetAll()
-                : repo.WyszukajOgloszenia(ogloszenie);
+                ? repo.GetAll().OrderBy(x => x.Miasto)
+                : repo.WyszukajOgloszenia(ogloszenie).OrderBy(x => x.Miasto);
+
             var pageSize = 10;
+
             return PartialView(new OgloszeniaViewModel()
             {
                 Nieruchomosci = listaNieruchomosci.ToList().ToPagedList(page, pageSize),
@@ -259,20 +253,17 @@ namespace Nieruchomosci.Controllers
         //}
         
         [Authorize(Roles = "Admin")]
-        public ActionResult WszystkieOgloszenia( )
+        public ActionResult WszystkieOgloszenia()
         {
             var pageNumber = 1;
             var pageSize = 10;
-            var nieruchomoscs = repo.GetAll();
+            var nieruchomoscs = repo.GetAll().OrderBy(x => x.Miasto).ToList();
             /*return PartialView("OgloszeniaLista",nieruchomoscs.ToPagedList(pageNumber, pageSize));*/
             return PartialView("OgloszeniaLista", new OgloszeniaViewModel()
             {
-                Nieruchomosci = nieruchomoscs.ToList().ToPagedList(pageNumber, pageSize),
+                Nieruchomosci = nieruchomoscs.ToPagedList(pageNumber, pageSize),
                 Filtrowanie = null});
         }
-
-
-
 
         public ActionResult Ogloszenia()
         {

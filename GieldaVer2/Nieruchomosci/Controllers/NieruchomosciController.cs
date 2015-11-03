@@ -172,7 +172,7 @@ namespace Nieruchomosci.Controllers
         }*/
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
        public ViewResult Sprzedaz1(string sortOrder, string currentFilter, string searchString, int? page, string searchByCategory)
-  {
+       {
       ViewBag.CurrentSort = sortOrder;
       ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
       ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
@@ -187,7 +187,7 @@ namespace Nieruchomosci.Controllers
       }
 
   
-
+                                                                    
       ViewBag.CurrentFilter = searchString;
       ViewBag.CategoryParm = searchByCategory;
 
