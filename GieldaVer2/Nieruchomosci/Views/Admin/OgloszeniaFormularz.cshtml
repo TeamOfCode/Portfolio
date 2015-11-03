@@ -1,0 +1,73 @@
+﻿@model Nieruchomosci.Models.ViewModelFiltrowanieOgloszenie
+
+@{
+    AjaxOptions ajaxOpts = new AjaxOptions()
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "get",
+        UpdateTargetId = "ogloszenia",
+        Url = Url.Action("OgloszeniaLista")
+    };
+}
+
+@using (Html.BeginForm("OgloszeniaLista","Admin",FormMethod.Get))
+{
+    @*@Html.AntiForgeryToken()*@
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>ViewModelFiltrowanieOgloszenie</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Cenaod)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Cenaod)
+            @Html.ValidationMessageFor(model => model.Cenaod)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Cenado)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Cenado)
+            @Html.ValidationMessageFor(model => model.Cenado)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Powierzchniad)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Powierzchniad)
+            @Html.ValidationMessageFor(model => model.Powierzchniad)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Powierzhcniado)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Powierzhcniado)
+            @Html.ValidationMessageFor(model => model.Powierzhcniado)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Rodzaj)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Rodzaj)
+            @Html.ValidationMessageFor(model => model.Rodzaj)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Miasto)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Miasto)
+            @Html.ValidationMessageFor(model => model.Miasto)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Nieruchomosci.Models.NieruchomoscPhoto>
+<div class="img-obok">
+    @foreach (var item in Model)
+    {
+
+        <a href="@Url.Action("GetImage1", "Nieruchomosci", new { id = item.ImageID })" target="_blank"><img src="@Url.Action("GetImage", "Nieruchomosci", new { id = item.ImageID })" /></a>
+        @*<img src="@Url.Action("GetImage", "Nieruchomosci", new { id = item.ImageID })" />*@
+    }
+    </div>
+        @*<table>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NieruchomoscID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ImageID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ImageSize)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FileName)
+                    </th>
+                    <th></th>
+                </tr>
+
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NieruchomoscID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImageID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImageSize)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FileName)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+
+            </table>*@

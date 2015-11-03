@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Utwórz role";
+    //Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="spacerBody">
+    <p>&nbsp;</p>
+    @Html.ActionLink("Lista ról", "RoleIndex") | @Html.ActionLink("Zarządzaj rolami użytkoników", "RoleAddToUser")
+    <h2>Role Create</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <div>
+            Role name
+        </div>
+        <p>
+            @Html.TextBox("Nazwa roli")
+        </p>
+        <input type="submit" value="Zapisz" />
+    }
+</div>

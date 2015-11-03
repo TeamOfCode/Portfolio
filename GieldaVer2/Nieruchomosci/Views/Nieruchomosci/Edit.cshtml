@@ -1,0 +1,205 @@
+﻿@model Nieruchomosci.Models.Nieruchomosc
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Nieruchomosc</legend>
+
+        @Html.HiddenFor(model => model.NieruchomoscID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TypTransakcjiID, "TypTransakcji")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("TypTransakcjiID", String.Empty)
+            @Html.ValidationMessageFor(model => model.TypTransakcjiID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RodzajNieruchomosciID, "RodzajNieruchomosci")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("RodzajNieruchomosciID", String.Empty)
+            @Html.ValidationMessageFor(model => model.RodzajNieruchomosciID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserId, "UserProfile")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("UserId", String.Empty)
+            @Html.ValidationMessageFor(model => model.UserId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Typ_nieruchomosci)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Typ_nieruchomosci)
+            @Html.ValidationMessageFor(model => model.Typ_nieruchomosci)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Typ_budynku)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Typ_budynku)
+            @Html.ValidationMessageFor(model => model.Typ_budynku)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Adres)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Adres)
+            @Html.ValidationMessageFor(model => model.Adres)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Miasto)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Miasto)
+            @Html.ValidationMessageFor(model => model.Miasto)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Powierzchnia)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Powierzchnia)
+            @Html.ValidationMessageFor(model => model.Powierzchnia)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Powierzchnia_dz)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Powierzchnia_dz)
+            @Html.ValidationMessageFor(model => model.Powierzchnia_dz)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Pietro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Pietro)
+            @Html.ValidationMessageFor(model => model.Pietro)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Standard)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Standard)
+            @Html.ValidationMessageFor(model => model.Standard)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Liczba_pokoi)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Liczba_pokoi)
+            @Html.ValidationMessageFor(model => model.Liczba_pokoi)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Rok_budowy)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Rok_budowy)
+            @Html.ValidationMessageFor(model => model.Rok_budowy)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Cena)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Cena)
+            @Html.ValidationMessageFor(model => model.Cena)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Uzbrojenie)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Uzbrojenie)
+            @Html.ValidationMessageFor(model => model.Uzbrojenie)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Opis)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Opis)
+            @Html.ValidationMessageFor(model => model.Opis)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Ogloszeniodawca)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Ogloszeniodawca)
+            @Html.ValidationMessageFor(model => model.Ogloszeniodawca)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Tel_kont)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Tel_kont)
+            @Html.ValidationMessageFor(model => model.Tel_kont)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Data_dodania)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Data_dodania)
+            @Html.ValidationMessageFor(model => model.Data_dodania)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/globalize/globalize.js"></script>
+    <script src="~/Scripts/globalize/cultures/globalize.culture.pl-PL.js"></script>
+    <script>
+        $.validator.methods.number = function (value, element) {
+            return this.optional(element) ||
+                !isNaN(Globalize.parseFloat(value));
+        }
+        $(document).ready(function () {
+            Globalize.culture('pl-PL');
+        });
+    </script>
+    <script>
+        jQuery.extend(jQuery.validator.methods, {
+            range: function (value, element, param) {
+                //Use the Globalization plugin to parse the value
+                var val = $.global.parseFloat(value);
+                return this.optional(element) || (
+                    val >= param[0] && val <= param[1]);
+            }
+        });
+
+    </script>
+}

@@ -1,0 +1,364 @@
+﻿@model Nieruchomosci.Models.Nieruchomosc
+
+@{
+    ViewBag.Title = "Giełda nieruchomości";
+}
+
+<div>
+    @Html.Partial("Gallery2", Model.NieruchomoscPhoto)
+
+</div>
+
+<h2>Szczegóły ogłoszenia:</h2>
+
+<div id="tail">
+    <p>Kliknij aby otworzyc  w nowym oknie</p>
+</div>
+@*
+<fieldset>
+    <legend>Nieruchomosc</legend>
+    <div id="tail">
+        <p>Kliknij aby otworzyc  w nowym oknie</p>
+    </div>
+    <aside>
+        @Html.DisplayFor(model => model.Opis)
+    </aside>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TypTransakcji.Typ)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TypTransakcji.Typ)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserProfile.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserProfile.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Typ_nieruchomosci)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Typ_nieruchomosci)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Typ_budynku)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Typ_budynku)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Adres)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Adres)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Miasto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Miasto)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Powierzchnia)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Powierzchnia)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Powierzchnia_dz)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Powierzchnia_dz)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pietro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pietro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Standard)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Standard)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Liczba_pokoi)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Liczba_pokoi)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Rok_budowy)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Rok_budowy)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Cena)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cena)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Uzbrojenie)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Uzbrojenie)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Opis)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Opis)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Ogloszeniodawca)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ogloszeniodawca)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Tel_kont)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Tel_kont)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Data_dodania)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Data_dodania)
+    </div>
+</fieldset>*@
+
+
+
+<table class="tg">
+    <tr>
+        <th class="tg-e3zv">@Html.DisplayNameFor(model => model.TypTransakcji.Typ)</th>
+        <th class="tg-031e">@Html.DisplayFor(model => model.TypTransakcji.Typ)</th>
+        <th class="tg-031e"><br></th>
+        <th class="tg-031e"></th>
+        <th class="tg-031e"></th>
+        <th class="tg-031e"></th>
+        <th class="tg-031e"></th>
+        <th class="tg-e3zv">@Html.DisplayNameFor(model => model.Opis)</th>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Opis)</td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.UserProfile.UserName)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.UserProfile.UserName)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Ogloszeniodawca)</td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Typ_nieruchomosci)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Typ_nieruchomosci)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Ogloszeniodawca)</td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Typ_budynku)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Typ_budynku)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Tel_kont)</td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Adres)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Adres)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Tel_kont)</td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Miasto)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Miasto)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Powierzchnia)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Powierzchnia)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Powierzchnia_dz)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Powierzchnia_dz)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Pietro)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Pietro)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Standard)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Standard)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Liczba_pokoi)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Liczba_pokoi)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Rok_budowy)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Rok_budowy)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Cena)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Cena)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Uzbrojenie)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Uzbrojenie)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+    <tr>
+        <td class="tg-e3zv">@Html.DisplayNameFor(model => model.Data_dodania)</td>
+        <td class="tg-031e">@Html.DisplayFor(model => model.Data_dodania)</td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+        <td class="tg-031e"></td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id=Model.NieruchomoscID }) |*@
+    @Html.ActionLink("Wróć do poprzedniej listy", "Index")
+</p>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/globalize/globalize.js"></script>
+    <script src="~/Scripts/globalize/cultures/globalize.culture.pl-PL.js"></script>
+    <script>
+    $(document).bind('mousemove', function (e) {
+        $('#tail').css({
+            left: e.pageX + 15,
+            top: e.pageY - 20
+        });
+    });
+
+
+    $(document).on('mouseover', 'img', function () {
+        $('#tail').show();
+    });
+    $(document).on('mouseout', 'img', function () {
+        $('#tail').hide();
+    });
+
+    </script>
+}

@@ -1,0 +1,30 @@
+﻿@model Nieruchomosci.Models.NieruchomoscPhoto
+
+@{
+    ViewBag.Title = "Upload";
+   
+}
+<h2>Upload</h2>
+
+@using (Html.BeginForm("Upload", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{   @*@Html.Hidden("NieruchomosciID", item.NieruchomoscID)*@
+    @Html.ValidationSummary(true)
+    <table>
+        
+        <tr>
+            <td>Wybierz plik : </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.File, new { type = "file" })
+                @Html.ValidationMessage("CustomError")
+            </td>
+            <td>
+                
+                <input type="submit" value="Upload" />
+            </td>
+        </tr>
+    </table>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

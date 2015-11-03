@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d9e3f0143dcb420aa3afc851544e348a" Name="Diagram1" ZoomLevel="109">
+        <EntityTypeShape EntityType="NieruchomosciDataModel.Nieruchomosc" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.NieruchomoscPhoto" Width="2.375" PointX="8" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.RodzajNieruchomosci" Width="1.5" PointX="2.625" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.TypTransakcji" Width="1.5" PointX="3.125" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.UserProfile" Width="1.5" PointX="3.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.webpages_Membership" Width="1.5" PointX="8.375" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.webpages_OAuthMembership" Width="1.5" PointX="0.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NieruchomosciDataModel.webpages_Roles" Width="1.5" PointX="0.5" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="NieruchomosciDataModel.FK_Nieruchomosc__TypTransakcji" ManuallyRouted="false" />
+        <AssociationConnector Association="NieruchomosciDataModel.FK_Nieruchomosc_RodzajNieruchomosci" ManuallyRouted="false" />
+        <AssociationConnector Association="NieruchomosciDataModel.FK_Nieruchomosc_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NieruchomosciDataModel.FK_NieruchomoscPhoto_Nieruchomosc" ManuallyRouted="false" />
+        <AssociationConnector Association="NieruchomosciDataModel.webpages_UsersInRoles" ManuallyRouted="false" >
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

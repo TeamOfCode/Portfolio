@@ -1,0 +1,28 @@
+﻿     @{
+         ViewBag.Title = "Lista ról";
+         //Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+    <p>&nbsp;</p>
+    <div class="spacerBody">
+        @Html.ActionLink("Dodaj nową role", "RoleCreate") | @Html.ActionLink("Zarządzaj rolami użytkoników", "RoleAddToUser")
+        <h2>Role Index</h2>
+        <div class="table">
+
+
+            @foreach (string s in Model)
+            {
+                <div class="tr">
+                    <div class="td">
+                        @s
+                       
+                    </div>
+                    <div class="td">
+                        <span onclick="return confirm('Are you sure to delete?')">
+                           
+                            <a href="/Admin/RoleDelete?RoleName=@s" class="delLink"><img src="/images/delete1.png" alt="Delete" class="imgBorder0" /> Kasuj</a>
+                        </span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>

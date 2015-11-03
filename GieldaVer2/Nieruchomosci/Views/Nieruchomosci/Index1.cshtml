@@ -1,0 +1,181 @@
+﻿@model PagedList.IPagedList<Nieruchomosci.Models.Nieruchomosc>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+    @*  @using (Html.BeginForm())
+        {
+        <p>
+            Masto: @Html.TextBox("SearchString")
+            <input type="submit" value="Search" />
+        </p>
+        }*@
+
+
+    @using (Html.BeginForm("Index1", "Nieruchomosci", FormMethod.Get))
+    {
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+    </p>
+    }
+    
+    
+    
+       
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TypTransakcji.Typ)
+        </th>
+        <th>
+           @Html.DisplayNameFor(model => model.First().RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+        </th>
+       @* <th>
+        @Html.DisplayNameFor(model => model.Miasto)
+    </th>*@
+
+        <th>
+            @Html.ActionLink("Miasto", "Index1", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+
+        <th>
+           @Html.DisplayNameFor(model => model.First().Powierzchnia)
+        </th>
+        <th>
+     @Html.DisplayNameFor(model => model.First().Cena) 
+        </th>
+        <th>
+            @Html.ActionLink("Data dodania", "Index1", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        @*<th>
+        @Html.DisplayNameFor(model => model.Data_dodania)
+    </th>
+    <th>
+        @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+    </th>
+    <th>
+        First Name
+    </th>
+    <th>
+        @Html.ActionLink("Enrollment Date", "Index", new { sortOrder = ViewBag.DateSortParm })
+    </th>*@
+
+
+
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypTransakcji.Typ)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Miasto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Powierzchnia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data_dodania)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NieruchomoscID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NieruchomoscID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NieruchomoscID })
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index1",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+
+@*
+
+    @model PagedList.IPagedList<ContosoUniversity.Models.Student>
+    @using PagedList.Mvc;
+    <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+    @{
+        ViewBag.Title = "Students";
+    }
+
+    <h2>Students</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    @using (Html.BeginForm("Index", "Student", FormMethod.Get))
+    {
+        <p>
+            Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+            <input type="submit" value="Search" />
+        </p>
+    }
+    <table class="table">
+        <tr>
+            <th>
+                @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                First Name
+            </th>
+            <th>
+                @Html.ActionLink("Enrollment Date", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th></th>
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstMidName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+*@

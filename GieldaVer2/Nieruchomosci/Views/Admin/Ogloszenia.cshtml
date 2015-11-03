@@ -1,0 +1,46 @@
+﻿@*@model PagedList.IPagedList<Nieruchomosci.Models.Nieruchomosc>
+
+@using Nieruchomosci.Models*@
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Ogloszenia";
+    AjaxOptions ajaxOpts = new AjaxOptions()
+    {
+        HttpMethod = "get",
+        UpdateTargetId = "ogloszenia",
+        Url = Url.Action("OgloszeniaLista")
+    };
+}
+
+<h2>Ogloszenia</h2>
+
+@Html.Action("OgloszeniaFormularz")
+
+@*@{
+    if (Model.Count == 0)
+    {
+        Html.Action("OgloszeniaLista");
+    }
+    else
+    {
+        Html.Action("OgloszeniaLista", "Admin", new { nieruchomoscs = Model, pageNumber = Model.PageNumber});
+    }
+   
+    }*@
+
+<div id="ogloszenia">
+    @Html.Action("OgloszeniaLista", new {})
+</div>
+
+
+
+
+
+@*new { page, Mode }))*@
+
+@*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount*@
+@*@Html.PagedListPager(Model, page => Url.Action("OgloszeniaLista", new { Model, page}))*@
+
+
+

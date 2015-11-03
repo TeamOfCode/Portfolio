@@ -1,0 +1,203 @@
+﻿@model PagedList.IPagedList<Nieruchomosci.Models.ViewModel>
+
+@using PagedList.Mvc;
+
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Giełda nieruchomości";
+}
+<p>
+    @Html.ActionLink("Dodaj nowe ogłoszenie", "Create")
+</p>
+<h2>Twoje ogłoszenia:</h2>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+
+        @*  @using (Html.BeginForm())
+            {
+            <p>
+                Masto: @Html.TextBox("SearchString")
+                <input type="submit" value="Search" />
+            </p>
+            }*@
+@*
+
+    @using (Html.BeginForm("Index2", "Nieruchomosci", FormMethod.Get))
+    {
+    <p>
+        Znadź miasto: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Szukaj" />
+    </p>
+    }
+
+*@
+
+@using (Html.BeginForm("Index", "User", FormMethod.Get))
+{
+    @*  <p>
+                Miasto: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+
+                @*Rodzaj nieruchomości: @Html.DropDownList("Rodzaje", )
+
+                   Rodzaj nieruchomości: @Html.DropDownList("Rodzaj", ViewBag.RodzajeNieruchomosci as SelectList, String.Empty, ViewBag.Rodzaj as string)
+
+
+        </p>
+            <P>
+            Cena od: @Html.TextBox("CenaOd", ViewBag.CenaOd as decimal?)
+                Cena do: @Html.TextBox("CenaDo", ViewBag.CenaDo as decimal?)
+                </P>
+            <p>
+                Powierzchnia od: @Html.TextBox("PowierzchniaOd", ViewBag.PowierzchniaOd as decimal?)
+                Powierzchnia do: @Html.TextBox("PowierzchniaDo", ViewBag.PowierzchniaDo as decimal?)*@
+
+
+
+
+
+    <table class="tg1">
+        <tr>
+            <th class="tg-e3zv">Miasto:</th>
+            <th class="tg-031e">@Html.TextBox("SearchString", ViewBag.CurrentFilter as string)</th>
+            <th class="tg-e3zv">Rodzaj nieruchomości:</th>
+            <th class="tg-031e">@Html.DropDownList("Rodzaj", ViewBag.RodzajeNieruchomosci as SelectList, String.Empty, ViewBag.Rodzaj as string)</th>
+        </tr>
+        <tr>
+            <td class="tg-e3zv">Cena od:</td>
+            <td class="tg-031e">@Html.TextBox("CenaOd", ViewBag.CenaOd as decimal?)</td>
+            <td class="tg-e3zv">Cena do:</td>
+            <td class="tg-031e">@Html.TextBox("CenaDo", ViewBag.CenaDo as decimal?)</td>
+        </tr>
+        <tr>
+            <td class="tg-e3zv">Powierzchnia od:</td>
+            <td class="tg-031e">@Html.TextBox("PowierzchniaOd", ViewBag.PowierzchniaOd as decimal?)</td>
+            <td class="tg-e3zv">Powierzchnia do:</td>
+            <td class="tg-031e">@Html.TextBox("PowierzchniaDo", ViewBag.PowierzchniaDo as decimal?)</td>
+        </tr>
+    </table>
+
+
+
+    <p>
+        <input type="submit" value="Filtruj" />
+    </p>
+}
+
+
+
+<table>
+    <tr>
+        <th>
+
+        </th>
+
+        <th>
+            @Html.ActionLink("Rodzaj transakcji", "Index", new { sortOrder = ViewBag.TransakcjaSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+        <th>
+            @Html.ActionLink("Rodzaj nieruchomosci", "Index", new { sortOrder = ViewBag.RodzajNieruchomosciSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+
+
+        <th>
+            @Html.ActionLink("Miasto", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+
+        <th>
+            @Html.ActionLink("Powierzchnia", "Index", new { sortOrder = ViewBag.PowierzchniaSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+        <th>
+            @Html.ActionLink("Cena", "Index", new { sortOrder = ViewBag.CenaSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+        <th>
+            @Html.ActionLink("Data dodania", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj })
+        </th>
+
+
+
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="@Url.Action("GetImage", "User", new { id = item.ImageID })" />
+
+            </td>
+
+            @*  <td>
+                    @Html.DisplayFor(modelItem => item.NieruchomoscID)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageID)
+
+                </td>*@
+
+            <td>
+                @Html.DisplayFor(modelItem => item.TypTransakcji.Typ)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Miasto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Powierzchnia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data_dodania)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", new { id = item.NieruchomoscID }) |
+                @Html.ActionLink("Pokaż", "Details", new { id = item.NieruchomoscID }) |
+                @Html.ActionLink("Kasuj", "Delete", new { id = item.NieruchomoscID })
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index",
+       new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, CenaOd = ViewBag.CenaOd, CenaDo = ViewBag.CenaDo, PowierzchniaOd = ViewBag.PowierzchniaOd, PowierzchniaDo = ViewBag.PowierzchniaDo, Rodzaj = ViewBag.Rodzaj }))
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/globalize/globalize.js"></script>
+    <script src="~/Scripts/globalize/cultures/globalize.culture.pl-PL.js"></script>
+    <script>
+        $.validator.methods.number = function (value, element) {
+            return this.optional(element) ||
+                !isNaN(Globalize.parseFloat(value));
+        }
+        $(document).ready(function () {
+            Globalize.culture('pl-PL');
+        });
+    </script>
+    <script>
+        jQuery.extend(jQuery.validator.methods, {
+            range: function (value, element, param) {
+                //Use the Globalization plugin to parse the value
+                var val = $.global.parseFloat(value);
+                return this.optional(element) || (
+                    val >= param[0] && val <= param[1]);
+            }
+        });
+
+    </script>
+}

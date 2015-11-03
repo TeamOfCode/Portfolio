@@ -1,0 +1,164 @@
+﻿@model IEnumerable<Nieruchomosci.Models.Nieruchomosc>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    ViewBag.Title = "Giełda nieruchomosci";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+Ogłoszenia
+            </p>
+        </div>
+    </section>
+}
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+
+    @using (Html.BeginForm("Search", "Nieruchomosci", FormMethod.Get,new { target = "_blank"}))
+    {<input type="text" name="q" />
+    <input type="submit" value="Szukaj" />}
+    
+</p>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TypTransakcji.Typ)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserProfile.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Typ_nieruchomosci)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Typ_budynku)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Miasto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Powierzchnia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Powierzchnia_dz)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pietro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Standard)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Liczba_pokoi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rok_budowy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cena)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uzbrojenie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ogloszeniodawca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tel_kont)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Data_dodania)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypTransakcji.Typ)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RodzajNieruchomosci.RodzajNieruchomosciRodzaj)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserProfile.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Typ_nieruchomosci)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Typ_budynku)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Miasto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Powierzchnia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Powierzchnia_dz)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pietro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Standard)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Liczba_pokoi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rok_budowy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Uzbrojenie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ogloszeniodawca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tel_kont)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data_dodania)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NieruchomoscID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NieruchomoscID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NieruchomoscID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Nieruchomosci.Models.NieruchomoscPhoto>
+
+@*@{
+        ViewBag.Title = "Gallery1";
+    }*@
+
+<h2>Zdjęcia ogłoszenia:</h2>
+
+<p>
+
+    @Html.ActionLink("Dodaj zdjecie", "Upload1")
+
+</p>
+
+
+<table>
+    <tr>
+    
+        <th>
+            
+        </th>
+   
+        <th>
+            @Html.DisplayNameFor(model => model.FileName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+   
+        <td>
+          @* <img src="data:image/jpg;base64,@(Convert.ToBase64String(item.ImageData1))" alt="" />  też działa*@
+            <img src = "@Url.Action("GetImage", "Nieruchomosci", new { id = item.ImageID })" />
+
+          
+          
+        </td>
+        @*<td>
+        @Html.DisplayFor(modelItem => item.ImageData)
+    </td>*@
+    
+        <td>
+            @Html.DisplayFor(modelItem => item.FileName)
+        </td>
+        
+
+        <td>
+           @* @Html.ActionLink("Edit", "Upload", new {  id=item.NieruchomoscID }) |
+    @Html.ActionLink("Details", "Upload", new { id = item.NieruchomoscID }) |*@
+            @Html.ActionLink("Kasuj zdjęcie", "DeletePhoto", new { id = item.ImageID })
+        </td>
+    </tr>
+}
+
+</table>

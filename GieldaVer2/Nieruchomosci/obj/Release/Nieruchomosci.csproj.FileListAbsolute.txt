@@ -1,0 +1,168 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Nieruchomosci.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Nieruchomosci.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Nieruchomosci.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Antlr3.Runtime.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Data.Edm.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Data.OData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\PagedList.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\PagedList.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Spatial.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Http.OData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Optimization.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Razor.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\WebGrease.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\WebMatrix.Data.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\WebMatrix.WebData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\PagedList.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\PagedList.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Razor.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\WebMatrix.Data.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\WebMatrix.WebData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Web.Http.OData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Data.Edm.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\Microsoft.Data.OData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\System.Spatial.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\de\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\es\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\fr\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\it\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ja\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ko\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\ru\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\obj\Release\Nieruchomosci.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\obj\Release\Nieruchomosci.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci\Nieruchomosci\obj\Release\Nieruchomosci.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Nieruchomosci.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Nieruchomosci.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Nieruchomosci.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Antlr3.Runtime.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Data.Edm.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Data.OData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\PagedList.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\PagedList.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Spatial.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Http.OData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Optimization.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Razor.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\WebGrease.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\WebMatrix.Data.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\WebMatrix.WebData.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\PagedList.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\PagedList.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Razor.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\WebMatrix.Data.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\WebMatrix.WebData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Web.Http.OData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Data.Edm.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\Microsoft.Data.OData.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\System.Spatial.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\de\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\es\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\fr\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\it\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ja\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ko\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\ru\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\obj\Release\Nieruchomosci.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\obj\Release\Nieruchomosci.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\pierwowzor - Kopia\Nieruchomosci - Kopia (3)\Nieruchomosci\obj\Release\Nieruchomosci.pdb

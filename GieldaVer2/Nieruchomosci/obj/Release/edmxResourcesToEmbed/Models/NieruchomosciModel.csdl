@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NieruchomosciDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Nieruchomosc">
+    <Key>
+      <PropertyRef Name="NieruchomoscID" />
+    </Key>
+    <Property Name="NieruchomoscID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypTransakcjiID" Type="Int32" Nullable="false" />
+    <Property Name="RodzajNieruchomosciID" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Typ_nieruchomosci" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Typ_budynku" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adres" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Miasto" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Powierzchnia" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Powierzchnia_dz" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Pietro" Type="Int32" />
+    <Property Name="Standard" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Liczba_pokoi" Type="Int32" />
+    <Property Name="Rok_budowy" Type="Int32" />
+    <Property Name="Cena" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Uzbrojenie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Opis" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ogloszeniodawca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tel_kont" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Data_dodania" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="TypTransakcji" Relationship="Self.FK_Nieruchomosc__TypTransakcji" FromRole="Nieruchomosc" ToRole="TypTransakcji" />
+    <NavigationProperty Name="RodzajNieruchomosci" Relationship="Self.FK_Nieruchomosc_RodzajNieruchomosci" FromRole="Nieruchomosc" ToRole="RodzajNieruchomosci" />
+    <NavigationProperty Name="UserProfile" Relationship="Self.FK_Nieruchomosc_User" FromRole="Nieruchomosc" ToRole="UserProfile" />
+    <NavigationProperty Name="NieruchomoscPhoto" Relationship="Self.FK_NieruchomoscPhoto_Nieruchomosc" FromRole="Nieruchomosc" ToRole="NieruchomoscPhoto" />
+  </EntityType>
+  <EntityType Name="NieruchomoscPhoto">
+    <Key>
+      <PropertyRef Name="ImageID" />
+    </Key>
+    <Property Name="NieruchomoscID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Nieruchomosc" Relationship="Self.FK_NieruchomoscPhoto_Nieruchomosc" FromRole="NieruchomoscPhoto" ToRole="Nieruchomosc" />
+    <Property Name="ImageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImageData" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ImageSize" Type="Int32" Nullable="false" />
+    <Property Name="ImageData1" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="RodzajNieruchomosci">
+    <Key>
+      <PropertyRef Name="RodzajNieruchomosciID" />
+    </Key>
+    <Property Name="RodzajNieruchomosciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RodzajNieruchomosciRodzaj" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Nieruchomosc" Relationship="Self.FK_Nieruchomosc_RodzajNieruchomosci" FromRole="RodzajNieruchomosci" ToRole="Nieruchomosc" />
+  </EntityType>
+  <EntityType Name="TypTransakcji">
+    <Key>
+      <PropertyRef Name="TypTransakcjiID" />
+    </Key>
+    <Property Name="TypTransakcjiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Typ" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Nieruchomosc" Relationship="Self.FK_Nieruchomosc__TypTransakcji" FromRole="TypTransakcji" ToRole="Nieruchomosc" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Nieruchomosc" Relationship="Self.FK_Nieruchomosc_User" FromRole="UserProfile" ToRole="Nieruchomosc" />
+    <NavigationProperty Name="webpages_Roles" Relationship="Self.webpages_UsersInRoles" FromRole="UserProfile" ToRole="webpages_Roles" />
+  </EntityType>
+  <EntityType Name="webpages_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="ConfirmationToken" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IsConfirmed" Type="Boolean" />
+    <Property Name="LastPasswordFailureDate" Type="DateTime" Precision="3" />
+    <Property Name="PasswordFailuresSinceLastSuccess" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordChangedDate" Type="DateTime" Precision="3" />
+    <Property Name="PasswordSalt" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordVerificationToken" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordVerificationTokenExpirationDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="webpages_OAuthMembership">
+    <Key>
+      <PropertyRef Name="Provider" />
+      <PropertyRef Name="ProviderUserId" />
+    </Key>
+    <Property Name="Provider" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderUserId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="UserProfile" Relationship="Self.webpages_UsersInRoles" FromRole="webpages_Roles" ToRole="UserProfile" />
+  </EntityType>
+  <Association Name="FK_Nieruchomosc__TypTransakcji">
+    <End Role="TypTransakcji" Type="Self.TypTransakcji" Multiplicity="1" />
+    <End Role="Nieruchomosc" Type="Self.Nieruchomosc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypTransakcji">
+        <PropertyRef Name="TypTransakcjiID" />
+      </Principal>
+      <Dependent Role="Nieruchomosc">
+        <PropertyRef Name="TypTransakcjiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nieruchomosc_RodzajNieruchomosci">
+    <End Role="RodzajNieruchomosci" Type="Self.RodzajNieruchomosci" Multiplicity="1" />
+    <End Role="Nieruchomosc" Type="Self.Nieruchomosc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RodzajNieruchomosci">
+        <PropertyRef Name="RodzajNieruchomosciID" />
+      </Principal>
+      <Dependent Role="Nieruchomosc">
+        <PropertyRef Name="RodzajNieruchomosciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nieruchomosc_User">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="Nieruchomosc" Type="Self.Nieruchomosc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Nieruchomosc">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NieruchomoscPhoto_Nieruchomosc">
+    <End Role="Nieruchomosc" Type="Self.Nieruchomosc" Multiplicity="1" />
+    <End Role="NieruchomoscPhoto" Type="Self.NieruchomoscPhoto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nieruchomosc">
+        <PropertyRef Name="NieruchomoscID" />
+      </Principal>
+      <Dependent Role="NieruchomoscPhoto">
+        <PropertyRef Name="NieruchomoscID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="webpages_UsersInRoles">
+    <End Role="webpages_Roles" Type="Self.webpages_Roles" Multiplicity="*" />
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="EntitiesNieruchomosci" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Nieruchomosc" EntityType="Self.Nieruchomosc" />
+    <EntitySet Name="NieruchomoscPhoto" EntityType="Self.NieruchomoscPhoto" />
+    <EntitySet Name="RodzajNieruchomosci" EntityType="Self.RodzajNieruchomosci" />
+    <EntitySet Name="TypTransakcji" EntityType="Self.TypTransakcji" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" />
+    <EntitySet Name="webpages_Membership" EntityType="Self.webpages_Membership" />
+    <EntitySet Name="webpages_OAuthMembership" EntityType="Self.webpages_OAuthMembership" />
+    <EntitySet Name="webpages_Roles" EntityType="Self.webpages_Roles" />
+    <AssociationSet Name="FK_Nieruchomosc__TypTransakcji" Association="Self.FK_Nieruchomosc__TypTransakcji">
+      <End Role="TypTransakcji" EntitySet="TypTransakcji" />
+      <End Role="Nieruchomosc" EntitySet="Nieruchomosc" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nieruchomosc_RodzajNieruchomosci" Association="Self.FK_Nieruchomosc_RodzajNieruchomosci">
+      <End Role="RodzajNieruchomosci" EntitySet="RodzajNieruchomosci" />
+      <End Role="Nieruchomosc" EntitySet="Nieruchomosc" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nieruchomosc_User" Association="Self.FK_Nieruchomosc_User">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Nieruchomosc" EntitySet="Nieruchomosc" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NieruchomoscPhoto_Nieruchomosc" Association="Self.FK_NieruchomoscPhoto_Nieruchomosc">
+      <End Role="Nieruchomosc" EntitySet="Nieruchomosc" />
+      <End Role="NieruchomoscPhoto" EntitySet="NieruchomoscPhoto" />
+    </AssociationSet>
+    <AssociationSet Name="webpages_UsersInRoles" Association="Self.webpages_UsersInRoles">
+      <End Role="webpages_Roles" EntitySet="webpages_Roles" />
+      <End Role="UserProfile" EntitySet="UserProfile" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
