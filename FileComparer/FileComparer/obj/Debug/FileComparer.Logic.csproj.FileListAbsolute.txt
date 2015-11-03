@@ -1,0 +1,4 @@
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\FileComparer\FileComparer\bin\Debug\ClassLibrary1.dll
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\FileComparer\FileComparer\bin\Debug\ClassLibrary1.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\FileComparer\FileComparer\obj\Debug\ClassLibrary1.dll
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\FileComparer\FileComparer\obj\Debug\ClassLibrary1.pdb

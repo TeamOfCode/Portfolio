@@ -1,0 +1,7 @@
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\bin\Debug\Tests.dll
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\bin\Debug\Tests.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\bin\Debug\ClassLibrary1.dll
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\bin\Debug\ClassLibrary1.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\obj\Debug\Tests.dll
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\obj\Debug\Tests.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\rekrutacja\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache

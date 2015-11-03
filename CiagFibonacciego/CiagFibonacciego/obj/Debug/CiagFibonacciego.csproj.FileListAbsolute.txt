@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2013\Projects\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.exe
+c:\users\user\documents\visual studio 2013\Projects\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.pdb
+c:\users\user\documents\visual studio 2013\Projects\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.exe
+c:\users\user\documents\visual studio 2013\Projects\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.exe.config
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.exe
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.exe
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.pdb
+C:\Users\PatrykDev\Documents\vs_project\CV\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.csprojResolveAssemblyReference.cache
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\CiagFibonacciego\CiagFibonacciego\bin\Debug\CiagFibonacciego.exe.config
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.exe
+C:\Users\PatrykDev\Documents\vs_project\CV_projekty\CiagFibonacciego\CiagFibonacciego\obj\Debug\CiagFibonacciego.pdb
