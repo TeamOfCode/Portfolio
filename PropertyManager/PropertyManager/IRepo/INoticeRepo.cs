@@ -16,7 +16,7 @@ namespace PropertyManager.IRepo
         IQueryable<Property> GetByArea(double areaMin, double areaMax);
         IQueryable<Property> GetByCity(string city);
         IQueryable<Property> GetByType(string type);
-        IQueryable<ViewModelPropertyPropertyPhoto> FindNotices(ViewModelFilterNotice filterPattern);
+       // IQueryable<ViewModelPropertyPropertyPhoto> FindNotices(ViewModelFilterNotice filterPattern);
         List<Property> SortNotices(string sortType, List<Property> noticeList);
         List<string> GetTypes();
     }

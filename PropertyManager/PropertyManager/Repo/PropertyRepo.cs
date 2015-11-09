@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using Microsoft.Owin.Security.Provider;
@@ -12,6 +13,11 @@ namespace PropertyManager.Repo
     {
         private readonly PropertyManagerContext db = new PropertyManagerContext();
 
+     
+        
+        
+        
+        
         public IQueryable<Property> GetAllPropertyForUser(string userId)
         {
 
@@ -25,7 +31,7 @@ namespace PropertyManager.Repo
         {
 
 
-            var properties = db.Properties;
+            var properties = db.Properties.Include(p => p.ApplicationUser).Include(p => p.PropertyType).Include(p => p.TransactionType);
 
             return properties;
         }

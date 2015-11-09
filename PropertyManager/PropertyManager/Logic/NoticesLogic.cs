@@ -19,11 +19,11 @@ namespace PropertyManager.Logic
                 //  _repo = new NoticeRepo();
             }
 
-            public List<ViewModelPropertyPropertyPhoto> FindNotices(ViewModelFilterNotice filterPattern)
-            {
-                IQueryable<Property> properties = _repo.GetAll();
+            //public List<ViewModelPropertyPropertyPhoto> FindNotices(ViewModelFilterNotice filterPattern)
+            //{
+            //    IQueryable<Property> properties = _repo.GetAll();
 
-                return new List<ViewModelPropertyPropertyPhoto>();
-            }
+            //    return new List<ViewModelPropertyPropertyPhoto>();
+            //}
         }
     }

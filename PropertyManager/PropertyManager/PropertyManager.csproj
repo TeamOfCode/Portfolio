@@ -194,6 +194,7 @@
     <Compile Include="Models\PropertyModels\PropertyPhoto.cs" />
     <Compile Include="Models\PropertyModels\PropertyType.cs" />
     <Compile Include="Models\PropertyModels\TransactionType.cs" />
+    <Compile Include="Models\PropertyModels\ViewModelPropertyPropertyPhoto.cs" />
     <Compile Include="Models\ViewModel\NoticeViewModel.cs" />
     <Compile Include="Models\ViewModel\ViewModelFilterNotice.cs" />
     <Compile Include="Models\ViewModel\ViewModelPropertyPropertyPhoto.cs" />
@@ -203,6 +204,7 @@
     <Compile Include="Repo\FotoRepo.cs" />
     <Compile Include="Repo\NoticeRepo.cs" />
     <Compile Include="Repo\RepoViewModelPropertyPropertyPhoto.cs" />
+    <Compile Include="Service\PropertyService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>

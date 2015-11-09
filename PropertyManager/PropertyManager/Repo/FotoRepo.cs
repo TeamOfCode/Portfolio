@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using PropertyManager.Models;
 using PropertyManager.Models.PropertyModels;
+using System.Web.Mvc;
 
 namespace PropertyManager.Repo
 {
@@ -36,7 +37,7 @@ namespace PropertyManager.Repo
             return properrtyUserId.ToString();
         }
 
-
+       
 
 
 
@@ -48,6 +49,10 @@ namespace PropertyManager.Repo
 
 
 
+        public PropertyPhoto GetFirstFotoByPropertyId(int id)
+        {
+            return db.PropertyPhotos.FirstOrDefault(x => x.PropertyId == id);
+        }
 
 
 
