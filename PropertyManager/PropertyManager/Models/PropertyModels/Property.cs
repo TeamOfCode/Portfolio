@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -11,6 +12,7 @@ namespace PropertyManager.Models.PropertyModels
            public Property()
         {
             this.PropertyPhotos = new HashSet<PropertyPhoto>();
+       
         }
 
         [Display(Name = "ID")]
@@ -25,7 +27,7 @@ namespace PropertyManager.Models.PropertyModels
         public int PropertyTypeId { get; set; }
 
         [Display(Name = "Użytkownik")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         [Display(Name = "Typ nieruchomości")]
         [StringLength(50, ErrorMessage = "Maksymalna długość pola {0} wynosi {1} znaków")]
@@ -95,10 +97,15 @@ namespace PropertyManager.Models.PropertyModels
         [DisplayFormat(DataFormatString = "{0:d}")]
         public System.DateTime AddDate { get; set; }
 
-        public virtual TransactionType TransactionType { get; set; }
+        [ForeignKey("PropertyTypeId")]
         public virtual PropertyType PropertyType { get; set; }
-        //public virtual UserProfile UserProfile { get; set; }
-        public virtual ApplicationUser UserProfile { get; set; }
+        [ForeignKey("TransactionTypeId")]
+        public virtual TransactionType TransactionType { get; set; }
+          [ForeignKey("UserId")]
+        public virtual ApplicationUser ApplicationUser { get; set; }
+
+
+        
         public virtual ICollection<PropertyPhoto> PropertyPhotos { get; set; }
     }
 

@@ -169,14 +169,26 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PropertiesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IRepo\INoticeRepo.cs" />
     <Compile Include="IRepo\IRepoAdmin.cs" />
+    <Compile Include="IRepo\IRepoViewModelPropertyPropertyPhoto.cs" />
     <Compile Include="Logic\NoticesLogic.cs" />
+    <Compile Include="Migrations\201511051932507_start05112015.cs" />
+    <Compile Include="Migrations\201511051932507_start05112015.Designer.cs">
+      <DependentUpon>201511051932507_start05112015.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511091209119_FixingFKeys20151109.cs" />
+    <Compile Include="Migrations\201511091209119_FixingFKeys20151109.Designer.cs">
+      <DependentUpon>201511091209119_FixingFKeys20151109.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\PropertyManagerContext.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PropertyModels\Property.cs" />
     <Compile Include="Models\PropertyModels\PropertyPhoto.cs" />
@@ -187,8 +199,10 @@
     <Compile Include="Models\ViewModel\ViewModelPropertyPropertyPhoto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\AdminRepo.cs" />
+    <Compile Include="Repo\PropertyRepo.cs" />
     <Compile Include="Repo\FotoRepo.cs" />
     <Compile Include="Repo\NoticeRepo.cs" />
+    <Compile Include="Repo\RepoViewModelPropertyPropertyPhoto.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -248,6 +262,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Properties\Create.cshtml" />
+    <Content Include="Views\Properties\Delete.cshtml" />
+    <Content Include="Views\Properties\Details.cshtml" />
+    <Content Include="Views\Properties\Edit.cshtml" />
+    <Content Include="Views\Properties\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -258,6 +277,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201511051932507_start05112015.resx">
+      <DependentUpon>201511051932507_start05112015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511091209119_FixingFKeys20151109.resx">
+      <DependentUpon>201511091209119_FixingFKeys20151109.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

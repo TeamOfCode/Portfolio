@@ -1,0 +1,176 @@
+﻿@model PropertyManager.Models.PropertyModels.Property
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Property</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationUser.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyType.TypePropertyType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyType.TypePropertyType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransactionType.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransactionType.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildingType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildingType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LotArea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LotArea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Floor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Floor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Standard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Standard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomsAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomsAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImprovedLand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImprovedLand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Advertiser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Advertiser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

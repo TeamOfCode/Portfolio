@@ -1,0 +1,170 @@
+﻿@model PropertyManager.Models.PropertyModels.Property
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Property</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationUser.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyType.TypePropertyType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyType.TypePropertyType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransactionType.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransactionType.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildingType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildingType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LotArea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LotArea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Floor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Floor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Standard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Standard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomsAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomsAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImprovedLand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImprovedLand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Advertiser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Advertiser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PropertyId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
